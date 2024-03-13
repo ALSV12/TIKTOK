@@ -1,3 +1,18 @@
+import requests
+import os
+import sys
+my_token = '6631611942:AAFlUJhv-aAoJZfXrLYKv1eg9OZPkAkhMko'
+my_channel = '@OPOPQPO'
+os.system('clear')
+id = input('- Enter Your Id Telegram : ')
+url = f'''https://api.telegram.org/bot{my_token}/getchatmember?chat_id={my_channel}&user_id={id}'''
+req = requests.get(url).text
+if 'member' in req and 'creator' in req or 'administartor' in req:
+    print('\n\nDone You Member chaneell')
+else:
+    print('\n\n-  @OPOPQPOانضم وعود تعال تشتغل الاداة .')
+    os.system('xdg-open https://t.me/OPOPQPO')
+    exit()
 import datetime
 an = datetime.datetime.now()
 an2 = datetime.datetime(2024, 3, 14, 12, 0, 0)
