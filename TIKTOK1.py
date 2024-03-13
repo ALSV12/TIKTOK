@@ -10,7 +10,7 @@ req = requests.get(url).text
 if 'member' in req and 'creator' in req or 'administartor' in req:
     print('\n\nDone You Member chaneell')
 else:
-    print('\n\n-  @OPOPQPOانضم وعود تعال تشتغل الاداة .')
+    print('\n\n-  @OPOPQPO انضم وعود تعال تشتغل الاداة .')
     os.system('xdg-open https://t.me/OPOPQPO')
     exit()
 import datetime
