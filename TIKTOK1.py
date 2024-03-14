@@ -1,6 +1,6 @@
 import datetime
 an = datetime.datetime.now()
-an2 = datetime.datetime(2024, 3, 14, 12, 0, 0)
+an2 = datetime.datetime(2024, 3, 16, 12, 0, 0)
 if an > an2 or an == an2:
     exit('تم توقيف الادة ')
 
