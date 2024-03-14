@@ -1,4 +1,3 @@
-
 import datetime
 an = datetime.datetime.now()
 an2 = datetime.datetime(2024, 3, 14, 12, 0, 0)
@@ -116,8 +115,39 @@ class App:
         modheaders["Sec-Fetch-Dest"] = "empty"
         modheaders["Sec-Fetch-Site"] = "same-origin"
         modheaders["Origin"] = "https://zefoy.com"
-        print("\n[==================================================]\n")
-        print("[-] Enter the URL of your TikTok video")
+        os.system("clear")
+        from cfonts import render, say
+        import pyfiglet
+        output = render('TIKTOK',
+        colors=['white', 'red'], align='center')
+        print(output) 
+        print("~ Programmer : @D_E_M_O | Channel: @N_9_N_6 ~")
+        print("\x1b[1;33m—"*60)
+        print(f"""\x1b[38;5;117m1 \x1b[38;5;231m- Comments Hearts | \x1b[1;31mComing Soon
+\x1b[38;5;117m2 \x1b[38;5;231m- Views | \x1b[1;32m2 weeks ago updated
+\x1b[38;5;117m3\x1b[38;5;231m - Shares | \x1b[1;31mComing Soon
+\x1b[38;5;117m4 \x1b[38;5;231m- Favorites | \x1b[1;31mComing Soon  
+\x1b[38;5;117m5\x1b[38;5;231m - Followers | \x1b[1;31mComing Soon 
+\x1b[38;5;117m6\x1b[38;5;231m - Hearts | \x1b[1;31mComing Soon
+\x1b[38;5;117m7\x1b[38;5;231m - Live Stream [VS+LIKES] | \x1b[1;31mComing Soon""")
+        print("\x1b[1;33m—"*60)
+        DD=input("- Choose the service: ")
+        if DD == "1":
+            exit("- \x1b[1;31mComing Soon")
+        elif DD == "2":
+            pass
+        elif DD == "3":
+            exit("- \x1b[1;31mComing Soon")
+        elif DD == "4":
+            exit("- \x1b[1;31mComing Soon")
+        elif DD == "5":
+            exit("- \x1b[1;31mComing Soon")
+        elif DD == "6":
+            exit("- \x1b[1;31mComing Soon")
+        elif DD == "7":
+            exit("- \x1b[1;31mComing Soon")
+        else:
+            exit("- \x1b[1;31mWRONG CHOICE")
         while True:
             try:
                 nest = self.session
